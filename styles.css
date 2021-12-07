@@ -6,6 +6,7 @@ nav{
     background-color:#424242;
     height: 100vh;
     color:#efefef;
+    width: 25%;
 }
 nav a{
     text-decoration: none;
@@ -13,8 +14,8 @@ nav a{
     margin-left: 8%;
 }
 nav img{
-    width: 400px;
     margin-bottom: 10px;
+    width: 100%;
 }
 hr{
     width: 90%;

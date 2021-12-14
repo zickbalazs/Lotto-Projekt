@@ -4,8 +4,10 @@ system('cls')
 ''' Előző heti eredmények '''
 hely = input("Kérek egy felhasználónevet: ")
 tomb = beolvas(hely)
+print("Heti eredmények")
 print(tomb[0:2])
 ''' Legtöbb előfordulás '''
+print("Legtöbb előfordulás")
 db = 0
 sorsonly = []
 le_tomb = []
@@ -24,29 +26,22 @@ for y in range(1,100):
 print(sorted(le_tomb, key=lambda x: x[1], reverse=True)[0:3])
 del le_tomb
 ''' Legkisebb összeg '''
+print("Legkisebb összegek")
 print(sorted(tomb, key=lambda x: x[2])[0:3])
 ''' Hasonló számsorok '''
-t = []
-for x in range(1, 100):
+print("Hasonló számsorok")
+for x in tomb:
     for y in tomb:
-        temp = []
-        db = 0
-        for z in y[1]:
-            if len(str(z))==1:
-                if str(z)==str(x):
+        if (y!=x):
+            db = 0
+            for z in range(5):
+                if x[1].count(y[1][z])>0:
                     db+=1
-            else:
-                if str(z)[1]==str(x):
-                    db+=1
-        if db>3:
-            temp.append(y[0])
-            temp.append(y[1])
-            temp.append(db)
-        if len(temp)>0:
-            t.append(temp)
-print(sorted(t, key=lambda x: x[2], reverse=True))
+            if db>3:
+                print(y,x)
 del t
 ''' Sorozatok '''
+print("Sorozatok")
 t = []
 for x in tomb:
     for y in range(1,25):

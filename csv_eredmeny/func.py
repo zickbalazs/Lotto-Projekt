@@ -5,7 +5,8 @@ def beolvas(eleres):
     for l in file.readlines():
         teljes=[]
         if (l.split(';')[2]==''):
-            teljes.append(str(l.split(';')[0]))
+            st = l.split(';')[0] + '.' + l.split(';')[1] + '.'
+            teljes.append(st)
         else:
             teljes.append(str(l.split(';')[2]))
         sorsolas = []

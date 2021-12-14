@@ -2,7 +2,7 @@ from os import system
 from func import *
 system('cls')
 ''' Előző heti eredmények '''
-hely = input(r"Kérek egy abszolút elérési utat a csv-hez: ")
+hely = input("Kérek egy felhasználónevet: ")
 tomb = beolvas(hely)
 print(tomb[0:2])
 ''' Legtöbb előfordulás '''
@@ -45,4 +45,19 @@ for x in range(1, 100):
         if len(temp)>0:
             t.append(temp)
 print(sorted(t, key=lambda x: x[2], reverse=True))
+del t
 ''' Sorozatok '''
+t = []
+for x in tomb:
+    for y in range(1,25):
+        db = 0
+        if x[1][0]+y==x[1][1]:
+            db+=1
+            if x[1][1]+y==x[1][2]:
+                db+=1
+                if x[1][2]+y==x[1][3]:
+                    db+=1
+                    if x[1][3]+y==x[1][4]:
+                        db+=1
+        if db>2:
+            print(x[1])

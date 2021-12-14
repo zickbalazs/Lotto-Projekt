@@ -1,5 +1,6 @@
 def beolvas(eleres):
-    file = open(eleres)
+    x = "C:/Users/" + eleres + "/Downloads/ots.csv"
+    file = open(x)
     sorsolasok = []
     for l in file.readlines():
         teljes=[]

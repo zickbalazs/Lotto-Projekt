@@ -33,9 +33,19 @@ h1, h2{
     margin-right: 0;
 }
 article {
-    float:right;
+    margin-left: 45vh;
+    padding-top: 10vh;
     min-width: 65vh;
 }
 article img{
-    height: 150px;
+    max-height: 125px;
+}
+article h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+@media only screen and (max-width:800px){
+    article img{
+        max-height: 75px;
+    }
 }

@@ -5,7 +5,7 @@ https://zickbalazs.github.io/Lotto-Projekt/
 - Zick Balázs
 ## Oldalak funkciói:
 ### Korábbi sorsolások:
-![index.html] (/kep/scr/index_scr.png)
+![index.html](/kep/scr/index_scr.png)
 - Ez az alapértelmezetten megjelenő oldal.
 - Előző két heti sorsolásokat mutatja a felhasználónak
 ### Leggyakoribb számok:

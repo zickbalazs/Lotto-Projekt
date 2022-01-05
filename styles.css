@@ -1,13 +1,16 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    max-height: 200vh;
+    height: 100%;
 }
 nav{
     float:left;
     background-color:#424242;
-    min-height: 100vh; /*így nincsen zoom bug*/
     color:#efefef;
-    min-width: 35vh;
-    max-width: 35vh;
+    min-width: 20vw;
+    max-width: 20vw;
+    min-height: 100vh;
 }
 nav a{
     text-decoration: none;
@@ -35,7 +38,8 @@ h1, h2{
 article {
     margin-left: 45vh;
     padding-top: 10vh;
-    min-width: 65vh;
+    min-width: 70vw;
+    max-width: 70vw;
 }
 article img{
     max-height: 125px;
@@ -44,8 +48,24 @@ article h2{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+article h1{
+    font-size: 48pt;
+}
 @media only screen and (max-width:800px){
     article img{
         max-height: 75px;
     }
+    article{
+        min-width: 70vw;
+        max-width: 70vw;
+    }
+    nav{
+        min-width: 30vw;
+        max-width: 30vw;
+    }
+}
+#graph{
+    min-height: 300px;
+    margin-bottom: 20px;
+    border: 1px solid black;
 }

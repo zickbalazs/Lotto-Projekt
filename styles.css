@@ -8,8 +8,8 @@ nav{
     float:left;
     background-color:#424242;
     color:#efefef;
-    min-width: 20vw;
-    max-width: 20vw;
+    min-width: 25vw;
+    max-width: 25vw;
     min-height: 100vh;
 }
 nav a{
@@ -36,20 +36,21 @@ h1, h2{
     margin-right: 0;
 }
 article {
-    margin-left: 45vh;
+    margin-left: 30vw;
     padding-top: 10vh;
     min-width: 70vw;
     max-width: 70vw;
 }
 article img{
-    max-height: 125px;
+    max-height: 100px;
 }
 article h2{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 article h1{
-    font-size: 48pt;
+    font-size: 32pt;
+    margin-bottom: 50px;
 }
 @media only screen and (max-width:800px){
     article img{

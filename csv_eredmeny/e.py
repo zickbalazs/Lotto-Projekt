@@ -44,15 +44,14 @@ del t
 print("Sorozatok")
 t = []
 for x in tomb:
-    for y in range(1,25):
-        db = 0
-        if x[1][0]+y==x[1][1]:
+    db = 0
+    if x[1][0]+1==x[1][1]:
+        db+=1
+        if x[1][1]+1==x[1][2]:
             db+=1
-            if x[1][1]+y==x[1][2]:
+            if x[1][2]+1==x[1][3]:
                 db+=1
-                if x[1][2]+y==x[1][3]:
+                if x[1][3]+1==x[1][4]:
                     db+=1
-                    if x[1][3]+y==x[1][4]:
-                        db+=1
-        if db>2:
-            print(x[1])
+    if db>1:
+        print(x[1])

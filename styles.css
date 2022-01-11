@@ -11,9 +11,6 @@ article{
   padding-left:5vw;
   padding-top: 8vh;
 }
-article img{
-  max-height: 100px;
-}
 h2,h1{
   font-weight: bold;
 }
@@ -21,6 +18,8 @@ h2{
   margin-top: 25px;
   margin-bottom: 25px;
 }
+.kepek img{
+  max-height: 100px;
 .gombok{
   background-color: rgba(66,66,66,1);
   display:none;
@@ -37,6 +36,9 @@ background-color: #424242;
 position: fixed;
 height: 100%;
 overflow: auto;
+}
+.grafok{
+  width: 90%;
 }
 .sidebar img{
   width: inherit;
@@ -113,7 +115,7 @@ height: 1000px;
 .sidebar a {border:none;padding:none;display:block;}
 .sidebar img{display: none;}
 div.content {margin-left: 0;}
-article img{
+.golyo{
     max-height:80px;
 }
 article{
@@ -132,7 +134,7 @@ hr{
   inline-size: inherit;
   word-wrap:break-word;
 }
-article img{max-height:55px;}
+.golyo{max-height:55px;}
 article{margin: 10vw;padding: 0;}
 hr{
   display: none;

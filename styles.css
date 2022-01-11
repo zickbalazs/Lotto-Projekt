@@ -1,3 +1,8 @@
+@keyframes z{
+  from{height: 0px;}
+  to{height:150px;}
+}
+
 body{
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,6 +20,14 @@ h2,h1{
 h2{
   margin-top: 25px;
   margin-bottom: 25px;
+}
+.gombok{
+  background-color: rgba(66,66,66,1);
+  display:none;
+  margin-bottom: 0;
+}
+#gomb{
+  width: 100%;
 }
 .sidebar {
 margin: 0;
@@ -69,8 +82,22 @@ height: 1000px;
   position: relative;
   overflow:auto;
   white-space: nowrap;
-  height: 80px;
+  height: 0;
   border-bottom: 1px solid black;
+  
+}
+.atalakit{
+  -webkit-transition: all 1s ease;  
+  -moz-transition: all 1s ease;  
+  -o-transition: all 1s ease;  
+  -ms-transition: all 1s ease;  
+  transition: all 1s ease;
+}
+.aktival {
+  height: 350px;
+}
+.gombok{
+  display:block;
 }
 .sticky{
   margin:0;
@@ -83,7 +110,7 @@ height: 1000px;
   background: rgb(66,66,66);
   background: linear-gradient(0deg, rgba(66,66,66,1) 35%, rgba(1,150,94,1) 100%); 
 }
-.sidebar a {border:none;padding:none;display:inline;}
+.sidebar a {border:none;padding:none;display:block;}
 .sidebar img{display: none;}
 div.content {margin-left: 0;}
 article img{
@@ -102,6 +129,8 @@ hr{
   border:none;
   font-weight: bold;
   text-decoration: underline solid white;
+  inline-size: inherit;
+  word-wrap:break-word;
 }
 article img{max-height:55px;}
 article{margin: 10vw;padding: 0;}

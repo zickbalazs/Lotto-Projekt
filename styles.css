@@ -2,7 +2,6 @@
   from{height: 0px;}
   to{height:150px;}
 }
-
 body{
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -10,6 +9,10 @@ article{
   margin-left: 20vw;
   padding-left:5vw;
   padding-top: 8vh;
+  padding-right: 5vw;
+}
+article p{
+  text-align: justify;
 }
 h2,h1{
   font-weight: bold;
@@ -119,7 +122,7 @@ div.content {margin-left: 0;}
 .golyo{
     max-height:80px;
 }
-article{
+article {
     margin: 10vw;
     padding:0;
 }
@@ -130,8 +133,6 @@ hr{
 @media screen and (max-width: 526px){
 .sidebar a {
   border:none;
-  font-weight: bold;
-  text-decoration: underline solid white;
   inline-size: inherit;
   word-wrap:break-word;
 }

@@ -8,5 +8,4 @@ document.getElementById('gomb').onclick = function func(){
         document.getElementById('nav').style.height="0px";
         x = !x;
     }
-    $('.atalakit').toggleClass('aktival');
 }

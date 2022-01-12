@@ -24,6 +24,9 @@ h2{
 .kepek img{
   max-height: 100px;
 }
+.kepeks img{
+  max-height: 150px;
+}
 .gombok{
   background-color: rgba(66,66,66,1);
   display:none;
@@ -116,6 +119,15 @@ height: 1000px;
   background: rgb(66,66,66);
   background: linear-gradient(0deg, rgba(66,66,66,1) 35%, rgba(1,150,94,1) 100%); 
 }
+.kepeks img{
+  height: 100px;
+}
+.kepeks img{
+  height: 75px;
+}
+.kepeks{
+  vertical-align: middle;
+}
 .sidebar a {border:none;padding:none;display:block;}
 .sidebar img{display: none;}
 div.content {margin-left: 0;}
@@ -130,11 +142,14 @@ hr{
   display: none;
 }
 }
-@media screen and (max-width: 526px){
+@media screen and (max-width: 686px){
 .sidebar a {
   border:none;
   inline-size: inherit;
   word-wrap:break-word;
+}
+.kepek img{
+  height: 70px;
 }
 .golyo{max-height:55px;}
 article{margin: 10vw;padding: 0;}
@@ -148,4 +163,7 @@ hr{
 }
 .nagyobb{
   font-size: 400%;
+  vertical-align: middle;
+  padding-left: 25px;
+  padding-right: 25px;
 }

@@ -10,7 +10,7 @@ https://zickbalazs.github.io/Lotto-Projekt/
 ![index.html](/kep/scr/index_scr.png)
 ### Leggyakoribb számok:
 - Ez az oldal a három leggyakrabban előforduló számot mutatja a felhasználónak
-![leggyakoribb.html](/kep/erdekes.png)
+![leggyakoribb.html](/kep/gyakori.png)
 ### Leghasonlóbb számsorok:
 - Ez az oldal kettő hasonló számsort mutat a felhasználónak
 ![leghasonlobb.html](/kep/hasonlo.png)

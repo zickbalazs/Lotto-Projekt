@@ -10,11 +10,25 @@ https://zickbalazs.github.io/Lotto-Projekt/
 ![index.html](/kep/scr/index_scr.png)
 ### Leggyakoribb számok:
 - Ez az oldal a három leggyakrabban előforduló számot mutatja a felhasználónak
+![leggyakoribb.html](/kep/erdekes.png)
 ### Leghasonlóbb számsorok:
-- Ez az oldal két h
+- Ez az oldal kettő hasonló számsort mutat a felhasználónak
+![leghasonlobb.html](/kep/hasonlo.png)
 ### Leghosszabb sorozatok a számsorokban:
-- Ez az oldal a sorsolások közötti sorozatokat mutatja a felhasználónak
+- Ez az oldal a sorsolások közötti sorozatokat mutatja a felhasználónak.
+![leghosszabb.html](/kep/leghosszabb.png)
 ### Grafikonok:
-- Ez az oldal két grafikont mutat a felhasználónak, az egyik az összes szám gyakorisága, a másik az ötös találatoknál szerzett pénzt mutatja
+- Ez az oldal két grafikont mutat a felhasználónak, az egyik az összes szám gyakorisága, a másik az ötös találatoknál szerzett pénzt mutatja.
+![grafikon.html](/kep/grafikon.png)
 ### Érdekes történetek:
-- Ez az oldal néhány érdekes történetet ír le a lottózás világáról
+- Ez az oldal néhány érdekes történetet ír le a lottózás világáról.
+![erdekes.html](/kep/erdekes.png)
+## Könyvtárstruktúra
+|
+|_csv_eredmeny - Lekérdezéseket tartalmazza
+|_html - Az aloldalakat tartalmazza
+|_kep - Képeket tartalmazza az oldalakhoz
+|_README.md - Leírás
+|_index.html - Főoldal
+|_js.js - Menü működéséhez tartozó js fájl
+|_styles.css - Stíluslap

@@ -24,11 +24,12 @@ https://zickbalazs.github.io/Lotto-Projekt/
 - Ez az oldal néhány érdekes történetet ír le a lottózás világáról.
 ![erdekes.html](/kep/erdekes.png)
 ## Könyvtárstruktúra
-|
-|_csv_eredmeny - Lekérdezéseket tartalmazza
-|_html - Az aloldalakat tartalmazza
-|_kep - Képeket tartalmazza az oldalakhoz
-|_README.md - Leírás
-|_index.html - Főoldal
-|_js.js - Menü működéséhez tartozó js fájl
-|_styles.css - Stíluslap
+
+| <br>
+|_csv_eredmeny - Lekérdezéseket tartalmazza<br>
+|_html - Az aloldalakat tartalmazza<br>
+|_kep - Képeket tartalmazza az oldalakhoz<br>
+|_README.md - Leírás<br>
+|_index.html - Főoldal<br>
+|_js.js - Menü működéséhez tartozó js fájl<br>
+|_styles.css - Stíluslap<br>

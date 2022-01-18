@@ -99,10 +99,10 @@ height: 1000px;
   
 }
 .atalakit{
-  -webkit-transition: all 1s ease;  
+  /* -webkit-transition: all 1s ease;  
   -moz-transition: all 1s ease;  
   -o-transition: all 1s ease;  
-  -ms-transition: all 1s ease;  
+  -ms-transition: all 1s ease;  */
   transition: all 1s ease;
 }
 .aktival {
@@ -131,7 +131,7 @@ height: 1000px;
 .kepeks{
   vertical-align: middle;
 }
-.sidebar a {border:none;padding:none;display:block;}
+.sidebar a {border:none;display:block;}
 .sidebar img{display: none;}
 div.content {margin-left: 0;}
 .golyo{
